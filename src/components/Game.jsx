@@ -25,7 +25,7 @@ const questions = [
   },
   {
     question:
-      "Is it important to you to have a teammate who could eat any amount of sushi?",
+      "Is it important to you to have a teammate who could eat an unlimited amount of sushi?",
   },
   {
     question: "Is it important to you to have a teammate skilled in WoW?",
@@ -116,8 +116,8 @@ const Game = () => {
             </p>
             <p className="poppins-font">
               Simply answer the appearing questions with either
-              <span className="red">"Yes"</span> or
-              <span className="red">"No"</span> and the underlying
+              <span className="red"> "Yes" </span> or
+              <span className="red"> "No" </span> and the underlying
               <span className="red"> super-complicated AI</span> will provide
               you with a team fit percentage between you and Kata.
             </p>

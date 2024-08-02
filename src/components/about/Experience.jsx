@@ -14,7 +14,7 @@ brands.`,
   {
     year: "2022 - 2023",
     position: "Freelancer",
-    details: `Completing minor project details under mentorship.`,
+    details: `Completing smaller project under mentorship.`,
   },
   {
     year: "2022",
@@ -26,7 +26,7 @@ React.`,
     year: "2020 - 2022",
     position: "Economist position",
     companyName: "Praxis Kft. - Szeged",
-    details: `At first, I worked in the economic sector. I quickly realized that I had only started this under external influence, and I can envision myself in IT.`,
+    details: `At first, I worked in the economic sector. I quickly realized it is not my cup of tea, and I would like to do something more creative.`,
   },
   {
     year: "2018 - 2020",
@@ -37,8 +37,7 @@ economics.`,
   {
     year: "2014 - 2018",
     position: "Kada Elek Highschool - Kecskemét",
-    details: `High school diploma with a specialization in 
-economics and information technology.`,
+    details: `Graduated in economics and information technology.`,
   },
 ];
 
