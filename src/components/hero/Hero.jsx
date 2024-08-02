@@ -98,7 +98,7 @@ const Hero = ({ setSelectedIndex }) => {
                   onMouseOver={() => handleHover(true)}
                   onMouseOut={() => handleHover(false)}
                 >
-                  <span className="button-text">EYT - test</span>
+                  <span className="button-text">KYT - test</span>
                   <span className="button-icon fa fa-gamepad"></span>
                 </button>
               </div>
