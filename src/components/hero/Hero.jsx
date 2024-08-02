@@ -69,17 +69,50 @@ const Hero = ({ setSelectedIndex }) => {
               <strong>{heroContent.heroDescriptionsTitle}</strong>{" "}
               {heroContent.heroDescriptions}
             </p>
-
-            <div className="mt-3">
-              <button
-                className="button"
-                onClick={() => setSelectedIndex(1)}
+            <p className="open-sans-font">
+              <span
+                className="red"
                 onMouseOver={() => handleHover(true)}
                 onMouseOut={() => handleHover(false)}
+                onClick={() => setSelectedIndex(1)}
               >
-                <span className="button-text">{heroContent.heroBtn}</span>
-                <span className="button-icon fa fa-arrow-right"></span>
-              </button>
+                Read more about me
+              </span>
+              , or check out the little{" "}
+              <span
+                className="red"
+                onMouseOver={() => handleHover(true)}
+                onMouseOut={() => handleHover(false)}
+                onClick={() => setSelectedIndex(3)}
+              >
+                game I wrote{" "}
+              </span>
+              to test if I would be a good fit in your team :)
+            </p>
+
+            <div className="row">
+              <div className="col-sm-6 col-12 mt-3">
+                <button
+                  className="button"
+                  onClick={() => setSelectedIndex(3)}
+                  onMouseOver={() => handleHover(true)}
+                  onMouseOut={() => handleHover(false)}
+                >
+                  <span className="button-text">EYT - test</span>
+                  <span className="button-icon fa fa-gamepad"></span>
+                </button>
+              </div>
+              <div className="col-sm-6 col-12 mt-3">
+                <button
+                  className="button"
+                  onClick={() => setSelectedIndex(1)}
+                  onMouseOver={() => handleHover(true)}
+                  onMouseOut={() => handleHover(false)}
+                >
+                  <span className="button-text">{heroContent.heroBtn}</span>
+                  <span className="button-icon fa fa-arrow-right"></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

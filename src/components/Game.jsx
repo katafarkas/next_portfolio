@@ -4,73 +4,57 @@ import React, { useState } from "react";
 const finishes = [
   {
     finishTitle:
-      "Wow, looks like Endre would love to work in your team! You should probably get in contact.",
+      "Wow, looks like Kata would love to work in your team! You should probably get in contact.",
     score: 131,
   },
   {
     finishTitle:
-      "According to my intricate calculations, Endre would seamlessly fit into your team, and he would love to conquer the world with you.",
+      "According to my intricate calculations, Kata would seamlessly fit into your team, and he would love to conquer the world with you.",
     score: 118,
   },
   {
     finishTitle:
-      "Looks like you don't have enough WoW player yet (or beard?), your team would definitely benefit from Endre!",
+      "Looks like you don't have enough retro music lover yet, your team would definitely benefit from Kata!",
     score: 125,
   },
 ];
 
 const questions = [
   {
-    question:
-      "Would you like to have someone on your team who is good at karaoke?",
-  },
-  {
     question: "Do you appreciate team members who enjoy handcrafted beers?",
   },
   {
     question:
-      "Is it important to you to have a teammate who has emerged victorious in the largest game jam in Hungary?",
+      "Is it important to you to have a teammate who could eat any amount of sushi?",
+  },
+  {
+    question: "Is it important to you to have a teammate skilled in WoW?",
   },
   {
     question:
-      "Is it important to you to have a teammate skilled in League of Legends?",
+      "Would you enjoy working with someone who prefers to party to the music of the 70s and 80s?",
   },
   {
     question:
-      "Would you enjoy working with someone who won a cup at an E-sport event?",
-  },
-  {
-    question: "Do you value collaborating with people who love Formula 1?",
-  },
-  {
-    question: "Would you enhance your team with someone who has an OK beard?",
-  },
-  {
-    question: "Would you enjoy working with an FPV drone pilot?",
+      "Do you value collaborating with people who is a big fan of the band Ghost?",
   },
   {
     question:
-      "Do you value collaborating with people who has a Duolingo streak of over 1200+ days? (for real)",
+      "Would you enhance your team with someone who would definitely be one of the shortest members on the team?",
+  },
+  {
+    question: "Would you enjoy working with a big sitcom fan?",
   },
   {
     question:
-      "Would you enjoy working with someone who's writing a game for the original Game Boy for some reason? :|",
+      "Do you value collaborating with people who has a Duolingo streak of over 500+ days? (for real)",
   },
   {
     question:
-      "Would you enhance your team with someone who has a passion for retro video games?",
+      "Would you enjoy working with someone who, not at all behind, has just discovered the X-files series for herself?",
   },
   {
-    question:
-      "Would you enhance your team with someone who can solve the Rubik's cube?",
-  },
-  {
-    question:
-      "Would you work with someone who's pretty bad at memorizing celebrity names? (but still knows who they are)",
-  },
-  {
-    question:
-      "Would you work with someone who has been a leader of a 100+ member WoW guild for 3 years?",
+    question: "Would you enjoy working with a lifelong Harry Potter fan?",
   },
 ];
 
@@ -124,18 +108,18 @@ const Game = () => {
         {!gameStarted && !gameFinished ? (
           <>
             <h4 className="poppins-font position-relative mb-4">
-              Endrefy Your Team - Test
+              Katafy Your Team - Test
             </h4>
             <p className="poppins-font">
-              The <span className="red">EYT - test</span> helps you decide
-              whether you should consider reaching out to to Endre.
+              The <span className="red">KYT - test</span> helps you decide
+              whether you should consider reaching out to to Kata.
             </p>
             <p className="poppins-font">
               Simply answer the appearing questions with either
               <span className="red">"Yes"</span> or
               <span className="red">"No"</span> and the underlying
-              <span className="red">super-complicated AI</span> will provide you
-              with a team fit percentage between you and Endre.
+              <span className="red"> super-complicated AI</span> will provide
+              you with a team fit percentage between you and Kata.
             </p>
             <button
               className="button mt-3"
@@ -177,7 +161,7 @@ const Game = () => {
                   <button
                     className="button no-icon"
                     onClick={() =>
-                      (window.location = "mailto:dev.szabo.endre@gmail.com")
+                      (window.location = "mailto:farkaskata99@gmail.com")
                     }
                   >
                     <span className="button-text">Get in contact</span>

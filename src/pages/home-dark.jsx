@@ -7,11 +7,13 @@ import SEO from "../components/Seo";
 import Portfolio from "../components/portfolio/Portfolio";
 import SwitchDark from "../components/switch/SwitchDark";
 import Social from "../components/Social";
+import Game from "../components/Game";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
+  { icon: "fa-gamepad", menuName: "Game" },
 ];
 
 const HomeDark = () => {
@@ -32,7 +34,7 @@ const HomeDark = () => {
           onSelect={(index) => setSelectedIndex(index)}
         >
           <div className="header">
-            <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
+            <TabList className="icon-menu  revealator-slideup revealator-once revealator-delay1">
               {menuItem.map((item, i) => (
                 <Tab className="icon-box" key={i}>
                   <i className={`fa ${item.icon}`}></i>
@@ -88,6 +90,17 @@ const HomeDark = () => {
               <Portfolio />
             </TabPanel>
             {/* Portfolio Content Ends */}
+
+            {/* Game Content Starts */}
+            <TabPanel className="game">
+              <div className="title-section text-start text-sm-center">
+                <h1>
+                  DO I FIT IN YOUR <span>TEAM?</span>
+                </h1>
+                <span className="title-bg">Resume</span>
+              </div>
+              <Game />
+            </TabPanel>
           </div>
         </Tabs>
       </div>
