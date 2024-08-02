@@ -6,7 +6,7 @@ import AboutMain from "../about";
 import Image from "next/image";
 
 const heroContent = {
-  heroImage: "./assets/img/hero/test.jpg",
+  heroImage: "./assets/img/hero/hero.jpg",
   heroHatImage: "./assets/img/hero/hero.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "kata farkas",
