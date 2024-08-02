@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"_app.jsx -> react-animated-cursor":{id:4077,files:["static/chunks/588.9213b79c01d0ab56.js"]}};
