@@ -36,7 +36,8 @@ const index = () => {
           <a
             className="button mt-4"
             target="blank"
-            href="https://drive.google.com/file/d/17K_NHOdQGapaDmyXIn198ohK6gJS_ydJ/view?usp=sharing"
+
+            href="https://drive.google.com/file/d/1CssCyc-r-aBP-15AqEHOMrXdhilCg8DN/view?usp=sharing"
             download
           >
             <span className="button-text">Download CV</span>

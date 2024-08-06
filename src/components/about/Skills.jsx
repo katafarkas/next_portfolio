@@ -1,11 +1,11 @@
 import React from "react";
 
 const skillsContent = [
-  { skillName: "JAVASCRIPT" },
   { skillName: "TYPESCRIPT" },
   { skillName: "REACT" },
   { skillName: "NEXT.JS" },
   { skillName: "NODE.JS" },
+  { skillName: "GraphQL" },
   { skillName: "Cypress" },
   { skillName: "Tailwind CSS" },
   { skillName: "Material UI" },
