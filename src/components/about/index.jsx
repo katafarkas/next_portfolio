@@ -36,7 +36,6 @@ const index = () => {
           <a
             className="button mt-4"
             target="blank"
-
             href="https://drive.google.com/file/d/1nIqZxQ1nSRQmRE6T-SdBDSA-w0s_OCrK/view?usp=sharing"
             download
           >
@@ -71,22 +70,36 @@ const index = () => {
           </div>
           <div className="col-lg-12 m-15px-tb mb-5">
             <div className="resume-box">
-              <p>
+              <p className="mb-3">
                 Originally, I started my career in economics, but after a few
                 years, I felt too limited and wanted to do something more
                 creative. I was always interested in web development; even as a
                 child, I created simple pages with web builder platforms, so I
                 thought I might give it a try and learn a bit of web
-                development. Initially, I explored it in my free time as a
-                hobby, then I completed a course at a BME-accredited school
-                called WebUni, specializing in frontend development,
-                particularly in React and JavaScript. Eventually, I decided to
-                fully commit to web development and secured my first full-time
-                job at a marketing agency as a frontend developer. In this role,
-                I was responsible for collaborating with designers to implement
-                complete page designs and creating reusable and maintainable
-                components for projects such as portfolio pages, webshops, and
-                small quiz and marketing games.
+                development.
+              </p>
+              <p className="mb-3">
+                Initially, I explored it in my free time as a hobby, then I
+                completed a course at a BME-accredited school called WebUni,
+                specializing in frontend development, particularly in React and
+                JavaScript.
+              </p>
+              <p className="mb-3">
+                Eventually, I decided to fully commit to web development and
+                secured my first full-time job at a marketing agency as a
+                frontend developer. In this role, I was responsible for
+                collaborating with designers to implement complete page designs
+                and creating reusable and maintainable components for projects
+                such as portfolio pages, webshops, and small quiz and marketing
+                games. I was also responsible for testing the websites and
+                applications.
+              </p>
+              <p className="mb-3">
+                My most significant hobbies are connected to the world of
+                gaming. I've considered myself a gamer for a long time, enjoying
+                returning to classic favorites as well as trying out new ones.
+                I’ve been involved in collaborative projects with friends as a
+                QA, and I've also participated in Game Jams.
               </p>
             </div>
           </div>

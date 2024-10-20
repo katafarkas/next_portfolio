@@ -3,10 +3,10 @@ import React from "react";
 const experienceContent = [
   {
     year: "2023 - 2024",
-    position: "Frontend web developer",
+    position: "Frontend web developer / QA",
     companyName: "Four Creation Kft. - Szeged",
     details: `
-Frontend web developer position at a young and 
+Frontend web developer / QA position at a young and 
 rapidly growing marketing/advertising agency. 
 Exciting projects with prominent local and national 
 brands.`,

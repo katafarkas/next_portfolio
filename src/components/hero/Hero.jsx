@@ -10,8 +10,8 @@ const heroContent = {
   heroHatImage: "./assets/img/hero/hero.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "kata farkas",
-  heroDescriptionsTitle: "Frontend Developer",
-  heroDescriptions: `from Hungary, living in Malmö. I like to create modern and intuitive web products... and sushi.`,
+  heroDescriptionsTitle: "Frontend Developer / QA",
+  heroDescriptions: `from Hungary, living in Malmö. I like to create modern and intuitive digital products.`,
   heroBtn: "more about me",
 };
 
