@@ -96,10 +96,10 @@ const index = () => {
               </p>
               <p className="mb-3">
                 My most significant hobbies are connected to the world of
-                gaming. I've considered myself a gamer for a long time, enjoying
+                gaming. I have considered myself a gamer for a long time, enjoying
                 returning to classic favorites as well as trying out new ones.
-                I've been involved in collaborative projects with friends as a
-                QA, and I've also participated in Game Jams.
+                I have been involved in collaborative projects with friends as a
+                QA, and I have also participated in Game Jams.
               </p>
             </div>
           </div>
